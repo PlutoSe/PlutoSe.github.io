@@ -1918,7 +1918,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #67b412;
+  background: #ffff74;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2458,6 +2458,13 @@ pre .javascript .function {
 .site-pv .busuanzi-value,
 .page-pv .busuanzi-value {
   margin: 0 5px;
+}
+.site-uv {
+  margin-right: 10px;
+}
+.site-uv::after {
+  content: "|";
+  padding-left: 10px;
 }
 .head-animated {
   -webkit-animation-duration: 0.5s;
@@ -3621,9 +3628,6 @@ a {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
 }
 .links-of-author-item a {
   display: block;
@@ -3683,9 +3687,6 @@ a {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
 }
 .fa-more:before {
   content: "∙∙∙";
@@ -3889,7 +3890,7 @@ a {
 }
 .footer-image {
   background: url("../images/footer.png") no-repeat 50%;
-  height: 368px;
+  height: 400px;
   z-index: 1;
   position: absolute;
   bottom: 48px;
