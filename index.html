@@ -10,6 +10,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#222">
 
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
 
 
 
@@ -227,12 +237,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-我方">
+        <li class="menu-item menu-item-关于">
           <a href="/about/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
-            我方
+            关于
           </a>
         </li>
       
@@ -247,12 +257,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-时线">
+        <li class="menu-item menu-item-时间线">
           <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>
             
-            时线
+            时间线
           </a>
         </li>
       
@@ -267,42 +277,22 @@
         </li>
       
         
-        <li class="menu-item menu-item-投币">
-          <a href="/donate/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-cutlery"></i> <br>
-            
-            投币
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-友链">
+        <li class="menu-item menu-item-后宫">
           <a href="/friends/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-mars"></i> <br>
             
-            友链
+            后宫
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-留言">
+        <li class="menu-item menu-item-留言板">
           <a href="/message/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-pencil"></i> <br>
             
-            留言
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-主页">
-          <a href="https://injahow.cn/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-me"></i> <br>
-            
-            主页
+            留言板
           </a>
         </li>
       
@@ -454,7 +444,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  
+                  73
                 </span>
               
 
@@ -507,7 +497,9 @@
 <div>
   
 </div>
-
+    <div>
+      
+    </div>
     
 
     
@@ -633,7 +625,7 @@
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="/images/WeChat.jpg" target="_blank" title="wechat" data-balloon="wechat" data-balloon-pos="up">
+                  <a href="/images/WeChat.jpg" target="_blank" title="Wechat" data-balloon="Wechat" data-balloon-pos="up">
                     
                       <i class="fa fa-fw fa-wechat"></i></a>
                 </span>
@@ -700,7 +692,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客共字,</span>
+  <span class="post-count">博客共73字,</span>
 你是第<span id="busuanzi_value_site_uv"></span>个访问者,
 共被访问<span id="busuanzi_value_page_pv"></span>次.
 </div>
@@ -710,7 +702,7 @@
 <p>关于本站：没什么有趣的东西，有趣的是来这的你！</p>
 
 <p>© <span itemprop="copyrightYear">2019</span> Hi,PlutoSe.
-    由 <a href="https://hexo.io/" target="_blank" class="external" rel="nofollow">Hexo</a> 强力驱动.
+    <!--由 <a href="https://hexo.io/" target="_blank" class="external" rel="nofollow">Hexo</a> 强力驱动.-->
     
     <!--Theme By <a href="https://github.com/DIYgod/hexo-theme-sagiri" target="_blank" class="external" rel="nofollow">Sagiri</a> v0.0.4.-->
     
@@ -767,5 +759,12 @@
 
   
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/shizuku.model.json"},"display":{"position":"left","width":220,"height":440},"mobile":{"show":true},"log":false});</script></body>
+<!--   爆炸效果 -->
+  
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas> 
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+   <script type="text/javascript" src="/js/src/fireworks.js"></script>
+  
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/shizuku.model.json"},"display":{"position":"left","width":220,"height":440},"mobile":{"show":false},"log":false});</script></body>
 </html>
