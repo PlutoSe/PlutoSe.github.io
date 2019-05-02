@@ -1969,7 +1969,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7a46b5;
+  background: #ac6fcd;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3941,7 +3941,7 @@ a {
 }
 .footer-image {
   background: url("../images/footer.png") no-repeat 50%;
-  height: 390px;
+  height: 425px;
   z-index: 1;
   position: absolute;
   bottom: 48px;
