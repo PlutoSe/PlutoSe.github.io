@@ -2,7 +2,7 @@ const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
     autoplay: false,
-    mini: true
+    mini: true,
     audio: [
       {
         name: "你一定要幸福",
