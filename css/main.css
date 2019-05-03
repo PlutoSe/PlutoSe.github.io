@@ -1969,7 +1969,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffa304;
+  background: #ff6717;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3376,6 +3376,7 @@ a {
 .site-title .animate span {
   position: absolute;
   opacity: 0;
+  text-shadow: 2px 2px 0 #ff3f1a, -2px -2px 0 #00a7e0;
 }
 .site-nav {
   left: 0;
@@ -3617,9 +3618,7 @@ a {
   font-weight: 700;
   width: 130px;
   left: 50%;
-}
-.theme-darling .site-author-name {
-  text-shadow: 1px 1px 0 #ff3f1a, -1px -1px 0 #00a7e0;
+  text-shadow: 2px 2px 0 #ff3f1a, -2px -2px 0 #00a7e0;
 }
 .site-description {
   font-size: 14px;
