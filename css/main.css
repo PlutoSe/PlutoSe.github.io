@@ -1969,7 +1969,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4bde3d;
+  background: #ffa304;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3618,6 +3618,9 @@ a {
   width: 130px;
   left: 50%;
 }
+.theme-darling .site-author-name {
+  text-shadow: 1px 1px 0 #ff3f1a, -1px -1px 0 #00a7e0;
+}
 .site-description {
   font-size: 14px;
   margin: 5px 0 8px;
@@ -3940,7 +3943,7 @@ a {
   height: 404px;
   z-index: 1;
   position: absolute;
-  bottom: 63px;
+  bottom: 66px;
   width: 100%;
   pointer-events: none;
 }
