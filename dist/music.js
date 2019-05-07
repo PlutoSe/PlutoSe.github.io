@@ -31,7 +31,7 @@ const ap = new APlayer({
       {
         name:  '不露声色',
         artist:  'Jam',
-        url:  'http://dl.stream.qqmusic.qq.com/M5000034NlJJ0r7L5s.mp3?vkey=DB2941A20CB8A1C96ED4CCDB0D77980A186C4EF816570CB17A3DB7CB2E3BBE62C55C9D7902AFEE9675DF42B8E8E5516D64D0410F6070B992&guid=5150825362&fromtag=1',
+        url:  'http://dl.stream.qqmusic.qq.com/M5000034NlJJ0r7L5s.mp3?vkey=E6D62940F1DAD1EC9247AC656A1E9E9043AAB1A1B0CC3093040F807D919F44946139AF3EDEAE9425185311875C08189EB9C57A8BB59BF12E&guid=5150825362&fromtag=1',
         lrc:  'http://pqvlh54ap.bkt.clouddn.com/Jam%E9%98%BF%E6%95%AC-%E4%B8%8D%E9%9C%B2%E5%A3%B0%E8%89%B2.lrc',
         cover: 'http://pqvlh54ap.bkt.clouddn.com/%E7%BD%91%E6%98%93%E4%BA%91.jpg',  
       },
